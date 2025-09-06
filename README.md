@@ -1,28 +1,31 @@
 # Retail Sales Analysis
 
-This repository contains code and resources for analyzing retail sales data. The project aims to uncover valuable insights, trends, and patterns from sales transactions to support data-driven decision making in the retail sector.
+Analyze and visualize retail sales data using Python.
 
-## Key Features
-- Data cleaning and preprocessing
-- Exploratory data analysis and visualization
-- Time series and trend analysis
-- Customer segmentation and product performance evaluation
-- Predictive analytics for sales forecasting
+## How to Run
 
-## Technologies Used
-- Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
-- Jupyter Notebook
-- CSV/Excel data sources
+1. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+2. Clean your data:
+   ```
+   python scripts/data_cleaning.py
+   ```
+3. Open notebook for analysis:
+   ```
+   jupyter notebook notebooks/retail_sales_analysis.ipynb
+   ```
 
-## Getting Started
-Clone the repository and follow the instructions in the README to set up the environment and start analyzing your retail sales data.
+## Project Structure
 
-## Contributing
-Contributions are welcome! Please read the CONTRIBUTING guidelines for details.
+- `data/`: CSV data files
+- `scripts/`: Python scripts for data cleaning
+- `notebooks/`: Jupyter Notebooks for analysis
 
-## License
-This project is licensed under the MIT License.
+## Example Analysis
+
+- Time series plot of sales
+- Top selling products
 
 ---
-
-*Customize this description to better match your specific use case or add more details as your project evolves.*
